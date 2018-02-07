@@ -1,4 +1,3 @@
-#!/bin/bash 
 #
 # Script for prepare booting from an external USB Storage
 # Pi4IoT - 06/01/2018
