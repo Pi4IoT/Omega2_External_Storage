@@ -12,7 +12,7 @@ $ opkg install git git-http ca-bundle
 ### Step 2
 Clone the repository containing the script.
 ```sh
-$ git clone https://github.com/pi4iot/omega2.git
+$ git clone https://github.com/pi4iot/Omega2/External_Storage.git
 ```
 ### Step 3
 Make sure the Micro SD card is inserted, then make the script executable and run it. 
