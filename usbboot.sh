@@ -9,9 +9,6 @@ green='\e[0;32m'
 red_bold='\e[0;31m'
 normal='\e[0m'
 
-printf "\n${yellow}Filesystem:${normal}\n"
-df -h
-
 printf "\n${yellow}Installing the Tools:${normal}\n"
 opkg update
 opkg upgrade
