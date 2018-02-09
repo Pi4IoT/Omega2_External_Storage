@@ -11,7 +11,8 @@ normal='\e[0m'
 
 printf "\n${yellow}Installing the Tools:${normal}\n"
 opkg update
-opkg install kmod-usb-storage-extras e2fsprogs kmod-fs-ext4
+#opkg install kmod-usb-storage-extras e2fsprogs kmod-fs-ext4
+opkg install e2fsprogs
 
 printf "\n${red_bold}Formatting the Device:${normal}\n"
 umount /tmp/mounts/USB-A1/
