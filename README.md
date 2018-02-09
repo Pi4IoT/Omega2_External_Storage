@@ -35,4 +35,3 @@ Reboot the system and enjoy the expanded storage!
 ```sh
 $ reboot 
 ```
-now 
