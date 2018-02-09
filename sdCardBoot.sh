@@ -11,7 +11,6 @@ normal='\e[0m'
 
 printf "\n${yellow}Installing the Tools:${normal}\n"
 opkg update
-opkg upgrade
 opkg install kmod-usb-storage-extras e2fsprogs kmod-fs-ext4
 
 printf "\n${red_bold}Formatting the Device:${normal}\n"
