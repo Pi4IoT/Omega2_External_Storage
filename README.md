@@ -18,7 +18,7 @@ $ git clone https://github.com/pi4iot/Omega2_External_Storage.git
 Make sure the Micro SD card is inserted, then make the script executable and run it. 
 Warning: this will format the Micro SD card and erase all of its content.
 ```sh
-$ cd omega2/
+$ cd Omega2_External_Storage/
 $ chmod +x sdCardBoot.sh
 $ ./sdCardBoot.sh
 ```
