@@ -27,7 +27,7 @@ tar -C /overlay -cf - . | tar -C /mnt/mmcblk0p1 -xf -
 umount /mnt/mmcblk0p1/
 
 printf "\n${yellow}Finishing up...${normal}\n"
-#opkg install block-mount
+opkg install block-mount
 block detect > /etc/config/fstab
 sed -i '/enabled/s/0/1/g' /etc/config/fstab
 sed -i 's/mnt\/mmcblk0p1/overlay/g' /etc/config/fstab
